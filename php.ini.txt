@@ -1,0 +1,3 @@
+magic_quotes_gpc = Off
+extension=pdo.so
+extension=pdo_mysql.so

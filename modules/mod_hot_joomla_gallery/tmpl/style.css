@@ -1,0 +1,130 @@
+/*------------------------------------------------------------------------
+# "Hot Joomla Gallery" Joomla module
+# Copyright (C) 2010 ArhiNet d.o.o. All Rights Reserved.
+# License: http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+# Author: HotJoomlaTemplates.com
+# Website: http://www.hotjoomlatemplates.com
+-------------------------------------------------------------------------*/
+.svwp {
+	width:50px;
+	height:20px;
+}
+
+.svwp ul {
+	position:relative;
+	left:-999em;
+}
+
+.slideViewer {
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+
+.slideViewer ul {
+	position:relative;
+	left:0;
+	top:0;
+	width:1%;
+	list-style-type:none;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.slideViewer ul li {
+	float:left;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.slideViewer span.typo {
+	padding:6px;
+}
+
+.slideViewer img {
+	margin:0 !important;
+	padding:0 !important;
+	border:0 !important;
+}
+
+.thumbSlider {
+	overflow:hidden;
+	width:1%;
+}
+
+.thumbSlider ul {
+	list-style-type:none;
+	margin:0 !important;
+	padding:0 !important;
+}
+
+.thumbSlider ul li {
+	float:left;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding:0 !important;
+}
+
+.thumbSlider a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.thumbSlider a img {
+	border:0;
+	display:block;
+	padding:0;
+}
+
+.thumbSlider p.tmbrdr {
+	position:relative;
+	left:0;
+	font-size:.01em;
+	left:0;
+	margin:0;
+	padding:0;
+}
+
+a.left,a.right {
+	background:transparent;
+	color:#ff0000;
+	font:bold 16px Arial;
+	overflow:hidden;
+	border:none !important;
+}
+
+a.left span,a.right span {
+}
+
+a.left img,a.right img {
+	border:0;
+}
+
+a.l_dis,a.r_dis {
+	background:transparent;
+	cursor:default;
+}
+
+a.l_dis span,a.r_dis span {
+	display:none;
+}
+
+a:focus {
+	outline:none;
+}
+
+div#svwp0 ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal;
+}
+
+div#svwp0 ul li,div#thumbSlider0 ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	background:none;
+}

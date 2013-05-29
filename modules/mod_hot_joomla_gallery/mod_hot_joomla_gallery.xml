@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	  type="module"
+	  version="3.0"
+	  client="site"
+	  method="upgrade">
+	  
+	<name>HOT Joomla Gallery</name> 
+	<author>HotJoomlaTemplates.com</author> 
+	<creationDate>2009-11-20</creationDate> 
+	<copyright>Copyright 2012 by ArhiNet d.o.o.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>info@hotjoomlatemplates.com</authorEmail> 
+	<authorUrl>http://www.hotjoomlatemplates.com</authorUrl> 
+	<version>3.0.2</version> 
+	<description>HOT Joomla Gallery - Free module from HotJoomlaTemplates.com</description>
+	
+	<files>
+		<filename module="mod_hot_joomla_gallery">mod_hot_joomla_gallery.php</filename>
+		<filename>index.html</filename>
+		<folder>elements</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">en-GB.mod_hot_joomla_gallery.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_hot_joomla_gallery/elements">
+			<fieldset name="system" label="LABEL SYSTEM SETTINGS">
+				<field type="loader" />
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+				<field name="enablejQuery" type="list" default="1" label="LABEL JQUERY" description="DESC JQUERY">
+					<option value="1">Enable</option>
+					<option value="0">Disable</option>
+				</field>
+				<field name="imageFolder" type="text" default="images/stories/fruit" label="LABEL FOLDER" description="DESC FOLDER" />
+				<field name="bigImageWidth" type="text" default="300" label="LABEL BIG IMAGE WIDTH" description="DESC BIG IMAGE WIDTH" />
+				<field name="bigImageHeight" type="text" default="200" label="LABEL BIG IMAGE HEIGHT" description="DESC BIG IMAGE HEIGHT" />
+				<field name="userInput" type="textarea" cols="50" rows="10" default="" label="LABEL USER INPUT" description="DESC USER INPUT" />
+				<field name="thumbsNumber" type="text" default="3" label="LABEL THUMBS" description="DESC THUMBS" />
+				<field name="thumbsSize" type="text" default="20" label="LABEL THUMBS SIZE" description="DESC THUMBS SIZE" />
+				<field name="timerValue" type="text" default="3500" label="LABEL TIMER" description="DESC TIMER" />
+				<field name="galleryBackground" type="hotcolor" default="#000000" label="LABEL GALLERY BACKGROUND" description="DESC GALLERY BACKGROUND" />
+				<field name="galleryBorder" type="text" default="6" label="LABEL GALLERY BORDER" description="DESC GALLERY BORDER" />
+				<field name="galleryBorderColor" type="hotcolor" default="#cccccc" label="LABEL GALLERY BORDER COLOR" description="DESC GALLERY BORDER COLOR" />
+				<field name="bigImageBorder" type="text" default="0" label="LABEL BIG IMAGE BORDER" description="DESC BIG IMAGE BORDER" />
+				<field name="bigImageBorderColor" type="hotcolor" default="#cccccc" label="LABEL BIG IMAGE BORDER COLOR" description="DESC BIG IMAGE BORDER COLOR" />
+				<field name="thumbBorderColor" type="hotcolor" default="#cccccc" label="LABEL THUMB BORDER COLOR" description="DESC THUMB BORDER COLOR" />
+				<field name="activeThumbBorderColor" type="hotcolor" default="#ffffff" label="LABEL ACTIVE THUMB BORDER COLOR" description="DESC ACTIVE THUMB BORDER COLOR" />
+				<field name="descTextBackground" type="hotcolor" default="#000000" label="LABEL DESCRIPTION TEXT BACKGROUND" description="DESC DESCRIPTION TEXT BACKGROUND" />
+				<field name="descTextColor" type="hotcolor" default="#ffffff" label="LABEL DESCRIPTION TEXT COLOR" description="DESC DESCRIPTION TEXT COLOR" />
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
